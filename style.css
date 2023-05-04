@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comfortaa:wght@300&family=Roboto+Mono:wght@500&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+ /* CSS RESET */
+ body{
+     background-color:#f5c5bf;
+ }
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container
+{
+    max-width: 80vw;
+}
+header nav{
+    display: flex;
+    top: 0px;
+    position: sticky;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    /* height: 78px; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+nav ul li {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding:8px 4px;
+}
+nav ul li:hover
+{
+   background-color:grey;
+   color: black;
+   border-radius: 8px;
+
+
+}
+
+.top-left
+{
+    width: 50%;
+    
+}
+.top-right
+{
+    width:50%;
+}
+.section1
+{
+    /* max-height: 100vh; */
+    overflow-x: visible;
+    overflow-y: hidden; 
+}
+.section1 h1{
+    font-size: 2.5rem;
+    justify-content: center;
+    color:#e24937;
+    padding: 12px 0px;
+}
+
+.section1 p{
+    color: #b56e66;
+}
+.gym-img
+{
+
+    width:466px ;
+    /* width: 900px; */
+}
+.dumbellimg
+{
+    width:309px;
+    /* padding-left: 339px; */
+}
+.btn
+{
+    padding: 10px 12px;
+    border: 2px solid black;
+    color: wheat;
+    border-radius: 12px;
+    background-color: rgb(227 74 56);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+    color:black;
+}
+
+.burger
+{
+   display: none;
+   position:absolute;
+   cursor: pointer;
+   right: 5%;
+   top:5%;
+}
+.line
+{
+    display: flex;
+    flex-direction: column;
+    width:33px;
+    background-color: black;
+    height: 6px;
+    margin: 6px 3px;
+}
+
+/* section 2 */
+
+
+.section2 
+{
+    padding: 34px;
+
+}
+.section2 h1{
+    font-size: 3.0rem;
+    padding: 19px 0px;
+    color: rgb(227 74 56);
+}
+.section2 p
+{
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box
+{
+    padding: 12px 0px;
+    margin: 32px 32px;
+    min-width: 20vw;
+    border: 2px solid rgb(61, 24, 10);
+    text-align: center;
+    border-radius: 8px;
+}
+.box h1{
+    font-size: 2.0rem;
+}
+.box ul{
+    list-style: none;
+}
+
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+ /* Section 3 */
+.plan-table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section3 table{
+    width:100%;
+    margin-bottom:  140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 23px 0px;
+}
+.section3 table td{
+   
+    border-bottom: 2px solid black;
+}
+.section3 table tr{
+   
+    border-bottom: 2px solid black;
+}
+.section3
+{
+
+    padding: 73px;
+
+}
+.section3 h1{
+    font-size: 3.0rem;
+    padding: 19px 0px;
+    color: rgb(227 74 56);
+}
+footer
+{
+    padding: 33px;
+   text-align: center;
+   background-color: rgb(227 74 56) ;
+   color: white;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}

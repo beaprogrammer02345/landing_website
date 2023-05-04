@@ -1,0 +1,81 @@
+
+.min-h-screen
+{
+    min-height: 100vh;
+}
+.bg-color
+{
+    background-color: tomato;
+}
+.mx-auto
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-center
+{
+    align-items: center;
+}
+.logo
+{
+    font-size: 3.0rem;
+}
+.flex
+{
+    display: flex;
+}
+.flex-col
+{
+    flex-direction: column;
+}
+.justify-between
+{
+    justify-content: space-between;
+}
+.justify-center
+{
+    justify-content: center;
+}
+.font-bold
+{
+    font-weight: bold;
+}
+
+
+
+.my-1
+{
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.my-2
+{
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+}
+.px-2
+{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.text-blue
+{
+    color: rgb(227 74 56);
+}
+.text-center
+{
+    text-align: center;
+}
+.overflow-x-hidden
+{
+    overflow-x: hidden;
+}
+
+.highlighted
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+}

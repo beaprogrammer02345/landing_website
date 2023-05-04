@@ -1,0 +1,103 @@
+@media screen and (max-width:950px)
+{
+    .gym-img
+    {
+        display: none;
+    }
+    .top-right
+    {
+        width:0%;
+    }
+    .top-left
+    {
+        width:100%;
+    }
+    .dumbellimg {
+        width: 205px;
+    }
+    .burger
+    {
+        display: block;
+    }
+    nav
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav div
+    {
+        font-weight:normal;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    nav ul 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo
+    {
+        font-size: 1.5rem;
+        margin-top: 48px;
+        margin-bottom: 30px;
+    }
+    .btn
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+   /* Section */
+    .section2
+    {
+        padding: 1px;
+    }
+
+
+
+
+
+    /* Box */
+    .box
+    {
+        padding: 5px 0px;
+        margin: 0px;
+    }
+    .box .btn{
+        margin: auto;
+    }
+    .container
+    {
+       max-width:100%;
+    }
+    .boxes
+    {
+        flex-direction: column;
+    }
+    .section3{
+        padding: 10px;
+    }
+
+
+
+    .section3 h1 {
+        font-size: 2.0rem;
+        padding: 0px;
+       
+    }
+
+
+    /* Ham-Burger */
+    .h-nav
+    {
+        height: 116px;
+    }
+
+    .v-class-resp
+    {
+        opacity: 0;
+    }
+
+
+
+}
